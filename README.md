@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/93483481/200800286-b76eeac5-5ef1-4488-ab58-d03fa64504ca.png)
 
-## Required log pai hello
+## Required log api hello
 
 ![image](https://user-images.githubusercontent.com/93483481/200799859-2e3c0ded-71b7-48f1-8de1-a27078099956.png)
 ## -

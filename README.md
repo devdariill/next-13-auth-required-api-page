@@ -14,13 +14,21 @@
 
 ![image](https://user-images.githubusercontent.com/93483481/200799859-2e3c0ded-71b7-48f1-8de1-a27078099956.png)
 ## -
+
 https://www.youtube.com/watch?v=rQok7nlqzFo&ab_channel=GarajedeIdeas
+
 auth0-applications-new-next_config
+
     Allow callback URLs
+    
         al completar el registro de auth0 redirecciona a una pagina con privilegios, guardando el token que se genere
+        
             http://localhost:3000/api/auth/callback
+            
     Allow logout URLs
+    
         url de logout
+        
             http://localhost:3000/
 
 pnpm add --save @auth0/nextjs-auth0

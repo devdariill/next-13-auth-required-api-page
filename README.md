@@ -1,3 +1,35 @@
+https://www.youtube.com/watch?v=rQok7nlqzFo&ab_channel=GarajedeIdeas
+auth0-applications-new-next_config
+    Allow callback URLs
+        al completar el registro de auth0 redirecciona a una pagina con privilegios, guardando el token que se genere
+            http://localhost:3000/api/auth/callback
+    Allow logout URLs
+        url de logout
+            http://localhost:3000/
+
+pnpm add --save @auth0/nextjs-auth0
+.env.local
+    AUTH0_SECRET='gen_hex'
+    AUTH0_BASE_URL='http://localhost:3000/'
+    AUTH0_ISSUER_='FROM_AUTH0'
+    AUTH0_CLIENT_ID='FROM_AUTH0'
+    AUTH0_CLIENT_SECRET='FROM_AUTH0'
+
+create pages-auth-[...auth0].js
+configurar provider 
+    _app.js
+        <UserProvider>
+            <Component {...pageProps} />/...
+        </UserProvider>
+index.js
+    <LoginLogout/>
+    \next-13-auth0\src\components\LoginLogout.js    
+    pagina con auth requier 
+config apiendpoint \pages\api\hello.js
+    ...
+    export default withApiAuthRequired(handler);
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

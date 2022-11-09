@@ -24,7 +24,9 @@ auth0-applications-new-next_config
             http://localhost:3000/
 
 pnpm add --save @auth0/nextjs-auth0
+
 .env.local
+
     AUTH0_SECRET='gen_hex'
     AUTH0_BASE_URL='http://localhost:3000/'
     AUTH0_ISSUER_='FROM_AUTH0'
@@ -33,15 +35,23 @@ pnpm add --save @auth0/nextjs-auth0
 
 create pages-auth-[...auth0].js
 configurar provider 
+
     _app.js
+    
         <UserProvider>
             <Component {...pageProps} />/...
         </UserProvider>
+        
 index.js
+
     <LoginLogout/>
+    
     \next-13-auth0\src\components\LoginLogout.js    
+    
     pagina con auth requier 
+    
 config apiendpoint \pages\api\hello.js
+
     ...
     export default withApiAuthRequired(handler);
 

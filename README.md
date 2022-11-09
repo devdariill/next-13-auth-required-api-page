@@ -1,3 +1,19 @@
+## Page Home
+
+![image](https://user-images.githubusercontent.com/93483481/200800065-aab01e04-9282-4aac-a420-6308d8b6a422.png)
+
+## Page Login
+
+![image](https://user-images.githubusercontent.com/93483481/200800130-4e0b50a5-dfd5-4298-8dad-081b69e44b56.png)
+
+## Page with login
+
+![image](https://user-images.githubusercontent.com/93483481/200800286-b76eeac5-5ef1-4488-ab58-d03fa64504ca.png)
+
+## Required log pai hello
+
+![image](https://user-images.githubusercontent.com/93483481/200799859-2e3c0ded-71b7-48f1-8de1-a27078099956.png)
+## -
 https://www.youtube.com/watch?v=rQok7nlqzFo&ab_channel=GarajedeIdeas
 auth0-applications-new-next_config
     Allow callback URLs
